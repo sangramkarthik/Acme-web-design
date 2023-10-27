@@ -68,7 +68,7 @@ header a{
     margin: auto;
  }
 
- header .highlight, header .current a{
+.highlight, header .current a{
     font-weight: bold;
     color: #e8491d;
 
@@ -81,6 +81,7 @@ header a{
  #showcase{
     min-height: 400px;
     background: url('../images/607224.jpg') no-repeat 0 -400px;
+    
     text-align: center;
 
  }
@@ -91,7 +92,7 @@ header a{
     margin-bottom: 10px;
 
  }
- sowcase p{
+ #showcase p{
     font-size: 20px;
  }
 
@@ -112,11 +113,35 @@ header a{
     margin-top: 15px;
  }
 
- #newsletter input[email]{
+form input[type="email"]{
     padding: 4px;
     height: 25px;
     width: 240px;
  }
  nav ul{
     float: right;
+ }
+ /* boxes */
+
+ #boxes {
+    margin-top: 20px;
+ }
+.box{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+ }
+
+.box img{
+    width: 100px;
+ }
+ footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:#fff;
+    background-color: #e8491d;
+    text-align: center;
+
  }
