@@ -26,6 +26,15 @@ button{
     padding-left: 20px;
     padding-right: 30px;
     color: #fff;
+    margin-top: 10px;
+}
+.dark{
+   padding: 15px;
+   background: #35424a;
+   color: #fff;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
 }
 
 /* header */
@@ -49,6 +58,8 @@ header a{
     float:left;
     display: inline;
     padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    
  }
 
  header #branding{
@@ -62,6 +73,7 @@ header a{
  header nav{
     float: right;
     margin-bottom: 10px;
+    box-sizing: border-box;
     
  }
  ul{
@@ -120,6 +132,7 @@ form input[type="email"]{
  }
  nav ul{
     float: right;
+    
  }
  /* boxes */
 
@@ -136,6 +149,23 @@ form input[type="email"]{
 
 .box img{
     width: 100px;
+
+
+ }
+
+
+
+ aside.sidebar{
+   float:right;
+   width: 30%;
+   margin-top:10px;
+
+ }
+
+ article#main-col{
+   float: left;
+   width: 65%;
+
  }
  footer{
     padding: 20px;
