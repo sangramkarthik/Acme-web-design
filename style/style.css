@@ -76,9 +76,7 @@ header a{
     box-sizing: border-box;
     
  }
- ul{
-    margin: auto;
- }
+
 
 .highlight, header .current a{
     font-weight: bold;
@@ -167,6 +165,9 @@ form input[type="email"]{
    width: 65%;
 
  }
+
+ /* services */
+
  footer{
     padding: 20px;
     margin-top: 20px;
@@ -175,3 +176,23 @@ form input[type="email"]{
     text-align: center;
 
  }
+
+ #sevices li{
+   background: #000;
+ }
+
+ ul#service li{
+   background:#e6e6e6;
+   list-style: none;
+   padding: 20px;
+   border: #ccc solid 1px;
+   margin-bottom: 5px;
+
+ }
+
+
+ .sidebar input, .sidebar input[type="emai"]{
+   width:90%
+ }
+
+ 
