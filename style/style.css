@@ -195,4 +195,11 @@ form input[type="email"]{
    width:90%
  }
 
- 
+ @media(max-width:768px){
+   header #branding,header nav,header nav li{
+      float: none;
+      text-align: center;
+      width: 100%;
+   }
+ }
+
